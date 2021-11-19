@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="ACR Avy Gallery">
+    <meta name="keywords" content="HTML5, CSS, JavaScript">
+    <meta charset="UTF-8">
+    <title>ACR</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+
+
+
+
+<nav class="navbar py-3 navbar-dark navbar-expand-sm bg-dark">
+    <!-- logo -->
+    <a href="#" class="navbar-brand h1">
+        <h1><i> <img src="imgsAdicionais/symbol.png" style="height: 70px; width: 70px;"></i> Acres Caelestes Reunited</h1>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+      <span class="navbar-toggler-icon text-primary"></span>
+    </button>
+
+</nav>
+
+
+<br>
+<br>
+<section id="query">
+    <div class="container">
+        <div class="row">            
+            <div class="col-sm-4">
+            </div>
+
+            <datalist id="categorias">
+                <!--<option value="All"></option>-->
+                <option value="AkameGaKill"></option> 
+                <option value="AttackOnTitan"></option> 
+                <option value="Berserk"></option> 
+                <option value="BlackClover"></option> 
+                <option value="BlackLagoon"></option> 
+                <option value="Bleach"></option> 
+                <option value="BlueExorcist"></option> 
+                <option value="BungouStrayDogs"></option> 
+                <option value="Claymore"></option>   
+                <option value="CodeGeass"></option> 
+                <option value="CowboyBebop"></option> 
+                <option value="DarkerThanBlack"></option> 
+                <option value="DarlingInTheFranxx"></option> 
+                <option value="DeadManWonderland"></option> 
+                <option value="DeathNote"></option> 
+                <option value="DemonSlayer"></option> 
+                <option value="DevilMayCry"></option>
+                <option value="DGrayMan"></option>    
+                <option value="DragonBall"></option>  
+                <option value="DrStone"></option> 
+                <option value="Durarara"></option> 
+                <option value="Evangelion"></option> 
+                <option value="FairyTail"></option> 
+                <option value="Fate"></option> 
+                <option value="FinalFantasy"></option> 
+                <option value="FireForce"></option>   
+                <option value="FoodWars"></option> 
+                <option value="Freezing"></option> 
+                <option value="FullMetalAlchemist"></option> 
+                <option value="GenshinImpact"></option> 
+                <option value="Gintama"></option> 
+                <option value="Gundam"></option> 
+                <option value="GurrenLagann"></option> 
+                <option value="Hellsing"></option> 
+                <option value="HighschoolOfTheDead"></option> 
+                <option value="HitmanReborn"></option> 
+                <option value="HunterXHunter"></option> 
+                <option value="Hyouka"></option> 
+                <option value="Inyuasha"></option>
+                <option value="IRL"></option>  
+                <option value="Jojo"></option> 
+                <option value="JujutsuKaisen"></option> 
+                <option value="Kakeguri"></option> 
+                <option value="KimiNiTodoke"></option> 
+                <option value="KingOfFighters"></option> 
+                <option value="KProject"></option> 
+                <option value="KurokoNoBasket"></option> 
+                <option value="Kuroshitsuji"></option> 
+                <option value="LeagueOfLegends"></option> 
+                <option value="MiraiNikki"></option> 
+                <option value="Misc"></option> 
+                <option value="MobPsycho"></option>
+                <option value="MyHeroAcademia"></option> 
+                <option value="Naruto"></option>  
+                <option value="Noblesse"></option> 
+                <option value="OnePiece"></option> 
+                <option value="OnePunchMan"></option> 
+                <option value="Persona"></option>    
+                <option value="Pokemon"></option>   
+                <option value="ReZero"></option> 
+                <option value="SamuraiChamploo"></option>  
+                <option value="SevenDeadlySins"></option> 
+                <option value="ShamanKing"></option> 
+                <option value="SoloLeveling"></option> 
+                <option value="SoulEater"></option> 
+                <option value="TokyoGhoul"></option> 
+                <option value="TokyoRevengers"></option> 
+                <option value="TowerOfGod"></option> 
+                <option value="VivyFluoriteEyeSong"></option> 
+                <option value="YoichiIsagi"></option> 
+                <option value="Yugioh"></option> 
+                <option value="YuYuHakusho"></option> 
+            </datalist>
+
+            <div class="q">
+                <input type="text" id="querytext" list="categorias" placeholder="Search avy" onchange="searchAnime(this)">
+            </div>
+        </div>
+    </div>
+
+  
+
+</section> 
+<br>
+<br>
+
+<div id="showAvys" class="avys" style="display: block"></div>
+
+<br>
+<br>
+
+</body>
+</html>
