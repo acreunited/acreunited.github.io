@@ -11,137 +11,228 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/index.css">
-    <script src="js/index.js"></script>
+    
+    
 </head>
 
 <body>
 
+    <nav class="navbar py-3 navbar-dark navbar-expand-sm bg-dark">
+        <!-- logo -->
+        <a href="index.html" class="navbar-brand h1">
+            <h1><i> <img src="imgsAdicionais/symbol.png" style="height: 70px; width: 70px;"></i> Acres Caelestes Reunited</h1>
+        </a>
 
+        <div >
+            <ul class="navbar-nav">
+                <li><a href="#history" class="nav-link">History</a></li>
+                <li><a href="#members" class="nav-link">Members</a></li>
+                <li><a href="#hall" class="nav-link">Hall</a></li>
+                <li><a href="gfx.html" class="nav-link">GFX</a></li>
+            </ul>
+        </div>
 
+    </nav>
 
-<nav class="navbar py-3 navbar-dark navbar-expand-sm bg-dark">
-    <!-- logo -->
-    <a href="#index.html" class="navbar-brand h1">
-        <h1><i> <img src="imgsAdicionais/symbol.png" style="height: 70px; width: 70px;"></i> Acres Caelestes Reunited</h1>
-    </a>
-
-    <div >
-        <ul class="navbar-nav">
-            <li>
-                <a href="index.html" class="nav-link">GFX</a>
-            </li>
-            <li>
-                <a href="members.html" class="nav-link">Members</a>
-            </li>
-            <li>
-                <a href="hall.html" class="nav-link">Hall</a>
-            </li>            
-        </ul>
-    </div>
-
-</nav>
-
-
-<br>
-<br>
-<section id="query">
-    <div class="container">
-        <div class="row">            
-            <div class="col-sm-4">
+    <section class="carrousel">        
+        <!-- carousel section -->
+        <div class="container height">
+            <!--section-title -->
+            <div class="row ">
+                <div class="col text-center">
+                    <h3 class="text-success mb-0" style="padding: 20px;">
+                        The Embodiment Of Dominance And Power For Over 12 Years
+                    </h3>
+                </div>
             </div>
-
-            <datalist id="categorias">
-                <!--<option value="All"></option>-->
-                <option value="AkameGaKill"></option> 
-                <option value="AttackOnTitan"></option> 
-                <option value="Berserk"></option> 
-                <option value="BlackClover"></option> 
-                <option value="BlackLagoon"></option> 
-                <option value="Bleach"></option> 
-                <option value="BlueExorcist"></option> 
-                <option value="BungouStrayDogs"></option> 
-                <option value="Claymore"></option>   
-                <option value="CodeGeass"></option> 
-                <option value="CowboyBebop"></option> 
-                <option value="DarkerThanBlack"></option> 
-                <option value="DarlingInTheFranxx"></option> 
-                <option value="DeadManWonderland"></option> 
-                <option value="DeathNote"></option> 
-                <option value="DemonSlayer"></option> 
-                <option value="DevilMayCry"></option>
-                <option value="DGrayMan"></option>    
-                <option value="DragonBall"></option>  
-                <option value="DrStone"></option> 
-                <option value="Durarara"></option> 
-                <option value="Evangelion"></option> 
-                <option value="FairyTail"></option> 
-                <option value="Fate"></option> 
-                <option value="FinalFantasy"></option> 
-                <option value="FireForce"></option>   
-                <option value="FoodWars"></option> 
-                <option value="Freezing"></option> 
-                <option value="FullMetalAlchemist"></option> 
-                <option value="GenshinImpact"></option> 
-                <option value="Gintama"></option> 
-                <option value="Gundam"></option> 
-                <option value="GurrenLagann"></option> 
-                <option value="Hellsing"></option> 
-                <option value="HighschoolOfTheDead"></option> 
-                <option value="HitmanReborn"></option> 
-                <option value="HunterXHunter"></option> 
-                <option value="Hyouka"></option> 
-                <option value="Inyuasha"></option>
-                <option value="IRL"></option>  
-                <option value="Jojo"></option> 
-                <option value="JujutsuKaisen"></option> 
-                <option value="Kakeguri"></option> 
-                <option value="KimiNiTodoke"></option> 
-                <option value="KingOfFighters"></option> 
-                <option value="KProject"></option> 
-                <option value="KurokoNoBasket"></option> 
-                <option value="Kuroshitsuji"></option> 
-                <option value="LeagueOfLegends"></option> 
-                <option value="MiraiNikki"></option> 
-                <option value="Misc"></option> 
-                <option value="MobPsycho"></option>
-                <option value="MyHeroAcademia"></option> 
-                <option value="Naruto"></option>  
-                <option value="Noblesse"></option> 
-                <option value="OnePiece"></option> 
-                <option value="OnePunchMan"></option> 
-                <option value="Persona"></option>    
-                <option value="Pokemon"></option>   
-                <option value="ReZero"></option> 
-                <option value="SamuraiChamploo"></option>  
-                <option value="SevenDeadlySins"></option> 
-                <option value="ShamanKing"></option> 
-                <option value="SoloLeveling"></option> 
-                <option value="SoulEater"></option> 
-                <option value="TokyoGhoul"></option> 
-                <option value="TokyoRevengers"></option> 
-                <option value="TowerOfGod"></option> 
-                <option value="VivyFluoriteEyeSong"></option> 
-                <option value="YoichiIsagi"></option> 
-                <option value="Yugioh"></option> 
-                <option value="YuYuHakusho"></option> 
-            </datalist>
-
-            <div class="q">
-                <input type="text" id="querytext" list="categorias" placeholder="Search avy" onchange="searchAnime(this)">
+            <!-- end of section-title -->
+            <div class="row">
+                <div class="col-md-8 mx-auto text-center">
+                    <div id="example" class="carousel slide" data-ride='carousel'>
+                        <!-- indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#example" data-slide-to='0' class="active"></li>
+                            <li data-target="#example" data-slide-to='1'></li>
+                            <li data-target="#example" data-slide-to='2'></li>
+                            <li data-target="#example" data-slide-to='3'></li>
+                            <li data-target="#example" data-slide-to='4'></li>
+                            <li data-target="#example" data-slide-to='5'></li>
+                        </ul>
+                        <!-- images -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item pb-5 active">
+                                <img src="SlideShow/3GNsdLp.png" alt="Image 1" class="d-block w-100" style="width: 500px; height: 500px;">
+                            </div>
+                            <div class="carousel-item pb-3">
+                                <img src="SlideShow/bearandeagle.png" alt="Image 2" class="d-block w-100" style="width: 500px; height: 500px;">
+                            </div>
+                            <div class="carousel-item pb-3">
+                                <img src="SlideShow/koifishacr.png" alt="Image 3" class="d-block w-100" style="width: 500px; height: 500px;">
+                            </div>
+                            <div class="carousel-item pb-3">
+                                <img src="SlideShow/tPsmazp.png" alt="Image 4" class="d-block w-100" style="width: 500px; height: 500px;">
+                            </div>
+                            <div class="carousel-item pb-3">
+                                <img src="SlideShow/Seth.png" alt="Image 5" class="d-block w-100" style="width: 500px; height: 500px;">
+                            </div>
+                        </div>
+                        <!-- end of images -->
+                        <!-- controls -->
+                        <a href="#example" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon text-info"></span>
+                        </a>
+                        <a href="#example" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon text-info"></span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-  
+    <section id="history">
+        <div class="historyBackground"></div>   
+               
+        <div class="story">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="textStory" style="text-align: center; font-size: xx-large; padding-top: 10px;">The beginning of AC-R
+                        </p>
+                    </div>
 
-</section> 
-<br>
-<br>
+                    <div class="col-sm-12">
+                        <p class="textStory">Looking back, the first part of the name is simple to explain. 
+                            People knew that AC stood for Aeternus Callous, but everyone always called it AC. 
+                            With this in mind, Burnturrek simply made the abbreviation the official clan name. 
+                            When people asked what the AC stood for, the answer was 'it has no meaning'.
+                        </p>
+                    </div>
+                        
+                    <div class="col-sm-12">
+                        <p class="textStory">
+                            The reason why he added 'ReUnited' has to do with his ambitions and goals for the clan.
+                            Back then the clan was falling apart with more and more members either becoming inactive or quitting. 
+                            But Burnturrek was still determined to bring glory to the clan. 
+                            He wanted to 'reunite' the clan he loved, maybe with different members, 
+                            but in the end his ambition was to create a united AC that is stronger than the rest. Better than the rest. 
+                            AC deserved glory and for that cause the clan had to be reunited as one again.
+                        </p>
+                    </div>   
+                    
+                    <div class="col-sm-12">
+                        <p class="textStory">
+                            With Burnturrek as it's leader, a lot of changes were made to the clan. 
+                            A lot of members joined and left but the clan was healing again. A solid core was created. 
+                            A core of people loyal to the cause and to the clan. 
+                            These people are still in this clan even today, Amaya, LightningKakashi, Valex, Ajalaw, Urizen, N!kk!, Mihawk & Adojin. 
+                            But also people who joined a little later like 00fly00, T-Red, Joe5, HiNxPeR and the family duo Ikezod and Lonsave. 
+                            These people have stayed loyal to AC-R and lived it's history with it.
+                        </p>
+                    </div> 
+                    
+                    <div class="col-sm-12">
+                        <p class="textStory">
+                            There are many great names to be mentioned when it comes down to honouring the loyalty that was shown. 
+                            Names of people that are perhaps not found on the clan list anymore, 
+                            but names that belong to people that will never be forgotten.
+                        </p>
+                    </div>
 
-<div id="showAvys" class="avys" style="display: block"></div>
+                    <div class="col-sm-12">
+                        <p class="textStory">
+                            Acres Caelestes - ReUnited is a clan made for glory and glorious it will be. 
+                            It has been in the past, it will be in the present and it shall also be in the future.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+             
+    </section>
 
-<br>
-<br>
+    <section id="members">
+        <div class="row ">
+            <div class="col text-center">
+                <h1 class="text-success mb-0" style="padding: 20px;">
+                   Spartania Forever
+                </h1>            
+            </div>
+        </div>
+
+        <div id="showMembers">
+            <img src='Members/NewGen/aupate.png' class="zoom">
+            <img src='Members/NewGen/Axe.png'class="zoom">
+            <img src='Members/NewGen/D2Sos1.png'class="zoom">
+            <img src='Members/NewGen/Monroe2 (1).png'class="zoom">
+            <img src='Members/NewGen/Nasro.png'class="zoom">
+            <img src='Members/NewGen/Trash.png'class="zoom">
+            <img src='Members/OldSchool/cl/burr.png'class="zoom">
+            <img src='Members/OldSchool/rg/3.png'class="zoom">
+            <img src='Members/OldSchool/rg/adfadfaf.png'class="zoom">
+            <img src='Members/OldSchool/rg/gyjg.png'class="zoom">
+            <img src='Members/OldSchool/rg/Lightning1.png'class="zoom">
+            <img src='Members/OldSchool/rg/sadas.png'class="zoom">
+            <img src='Members/OldSchool/d1/1dd.png'class="zoom">
+            <img src='Members/OldSchool/d1/2jhj.png'class="zoom">
+            <img src='Members/OldSchool/d1/6.png'class="zoom">
+            <img src='Members/OldSchool/d1/afasd.png'class="zoom">
+            <img src='Members/OldSchool/d1/asd.png'class="zoom">
+            <img src='Members/OldSchool/d1/Bear.png'class="zoom">
+            <img src='Members/OldSchool/d1/by.png'class="zoom">
+            <img src='Members/OldSchool/d1/by2.png'class="zoom">
+            <img src='Members/OldSchool/d1/by3.png'class="zoom">
+            <img src='Members/OldSchool/d1/chaz1.png'class="zoom">
+            <img src='Members/OldSchool/d1/dangerdoom.png'class="zoom">
+            <img src='Members/OldSchool/d1/Habib.png'class="zoom">
+            <img src='Members/OldSchool/d1/Inu.png'class="zoom">
+            <img src='Members/OldSchool/d1/Seth.png'class="zoom">
+            <img src='Members/OldSchool/d1/tax.png'class="zoom">
+            <img src='Members/OldSchool/d2/Dark.png'class="zoom">
+            <img src='Members/OldSchool/d2/5gg.png'class="zoom">
+            <img src='Members/OldSchool/d2/7.png'class="zoom">
+            <img src='Members/OldSchool/d2/akatsu.png'class="zoom">
+            <img src='Members/OldSchool/d2/amaya.png'class="zoom">
+            <img src='Members/OldSchool/d2/chaz.png'class="zoom">
+            <img src='Members/OldSchool/d2/cooper.png'class="zoom">
+            <img src='Members/OldSchool/d2/GaaraOfSand.png'class="zoom">
+            <img src='Members/OldSchool/d2/Maldea.png'class="zoom">
+            <img src='Members/OldSchool/d2/Masta.png'class="zoom">
+            <img src='Members/OldSchool/d2/reject.png'class="zoom">
+            <img src='Members/OldSchool/d2/Shadow.png'class="zoom">
+            <img src='Members/OldSchool/d2/tray.png'class="zoom">
+        </div>
+        
+    </section>
+
+    <section id="hall">
+        <div class="row ">
+            <div class="col text-center">
+                <h1 class="text-success mb-0" style="padding: 20px;">
+                   ACR Trophies and Achievements (New N-A)
+                </h1>
+                <div id="showHall">
+                    <img src='ClanTrophies/acr.png'/>
+                    <img src='ClanTrophies/wofchamps.png'/>
+                    <img src='ClanTrophies/LikcaJr.png'/> 
+                    <img src='mvp/1.png'/>
+                    <img src='mvp/2.png'/>
+                    <img src='mvp/3.png'/>
+                    <img src='mvp/4.png'/>
+                    <img src='mvp/5.png'/>
+                    <img src='mvp/6.png'/>
+                    <img src='mvp/7.png'/>
+                </div>
+               
+            </div>
+        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+.q{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#query{
+    margin: auto;
+    display: table;
+    width:70%;
+    height: 10%;
+}
+
+#querytext{
+    font-size: 20px;
+}
+
+input[type=text]{
+    background-size: 35px 35px;
+    padding: 5px 5px 5px 40px;
+}
+
+
+.avys {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 4px;
+  }
+.avys img {
+    margin-top: 8px;
+    padding: 10px;
+    vertical-align: middle;
+    width: 9%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .avys img {
+        margin-top: 8px;
+        padding: 10px;
+        vertical-align: middle;
+        width: 12%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .avys img {
+        margin-top: 8px;
+        padding: 10px;
+        vertical-align: middle;
+        width: 16%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .avys img {
+        margin-top: 8px;
+        padding: 10px;
+        vertical-align: middle;
+        width: 20%;
+    }
+}
+  

@@ -1,69 +1,91 @@
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
-
-.q{
-    display: table-cell;
-    vertical-align: middle;
-}
-
-#query{
-    margin: auto;
-    display: table;
-    width:70%;
-    height: 10%;
-}
-
-#querytext{
-    font-size: 20px;
-}
-
-input[type=text]{
-    background-size: 35px 35px;
-    padding: 5px 5px 5px 40px;
-}
-
-
-.avys {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 0 4px;
+html {
+    scroll-behavior: smooth;
   }
-.avys img {
-    margin-top: 8px;
-    padding: 10px;
-    vertical-align: middle;
-    width: 9%;
+
+#history {
+    /*
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    overflow:scroll;*/
+  
+      /* The image used */
+      background-image: url("../Background/emblem3D.jpg");
+  
+      /* Full height */
+      height: 100%; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+.textStory {
+    color: white;
+    /*text-shadow: 2px 2px 4px black;*/
+    font-size: x-large;
+   /* text-shadow: 0 0 4px pink;*/
 }
 
 
-@media screen and (max-width: 1000px) {
-    .avys img {
-        margin-top: 8px;
-        padding: 10px;
-        vertical-align: middle;
-        width: 12%;
+.img-hover-zoom--colorize img {
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+  }
+  
+  /* The Transformation */
+.img-hover-zoom--colorize:hover img {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+  
+.zoom {
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+}
+  
+.zoom:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+#showMembers img {
+    width: 12%;
+    padding: 16px;
+}
+@media screen and (max-width: 800px) {
+    #showMembers img {
+        width: 24%;
+        padding: 16px;
     }
+}
+
+@media screen and (max-width: 400px) {
+    #showMembers img {
+        width: 30%;
+        padding: 16px;
+    }
+}
+
+
+#showHall img {
+    width: 30%;
+    padding: 16px;
 }
 
 @media screen and (max-width: 700px) {
-    .avys img {
-        margin-top: 8px;
-        padding: 10px;
-        vertical-align: middle;
-        width: 16%;
+    #showHall img {
+        width: 45%;
+        padding: 16px;
     }
 }
+
+
 @media screen and (max-width: 400px) {
-    .avys img {
-        margin-top: 8px;
-        padding: 10px;
-        vertical-align: middle;
-        width: 20%;
+    #showHall img {
+        width: 55%;
+        padding: 16px;
     }
 }
-  
