@@ -67,7 +67,7 @@ var nTokyoGhoul = 10;
 var nTowerOfGod = 3;
 var nVivyFluoriteEyeSong = 10;
 var nTokyoRevengers = 1;
-var nYoichiIsagi = 6;
+var nBlueLock = 6;
 var nYugioh = 208;
 var nYuYuHakusho = 7;
 
@@ -120,6 +120,11 @@ function searchAnime(anime) {
     else if( anime.value==="BlueExorcist") {
         for(var i = 0; i < nBlueExorcist; i++){
             document.getElementById('showAvys').innerHTML += "<img src='avys/BlueExorcist/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="BlueLock") {
+        for(var i = 0; i < nBlueLock; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/BlueLock/"+ i + ".png'/>";
         }
     }
     else if( anime.value==="BungouStrayDogs") {
@@ -435,11 +440,6 @@ function searchAnime(anime) {
     else if( anime.value==="VivyFluoriteEyeSong") {
         for(var i = 0; i < nVivyFluoriteEyeSong; i++){
             document.getElementById('showAvys').innerHTML += "<img src='avys/VivyFluoriteEyeSong/"+ i + ".png'/>";
-        }
-    }
-    else if( anime.value==="YoichiIsagi") {
-        for(var i = 0; i < nYoichiIsagi; i++){
-            document.getElementById('showAvys').innerHTML += "<img src='avys/YoichiIsagi/"+ i + ".png'/>";
         }
     }
     else if( anime.value==="Yugioh") {
