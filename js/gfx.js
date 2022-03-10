@@ -70,20 +70,36 @@ var nTokyoRevengers = 1;
 var nBlueLock = 6;
 var nYugioh = 208;
 var nYuYuHakusho = 7;
-
-
+var nBakaTestShoukanjuu = 1;
+var nBoardingSchoolJuliet = 2;
+var nCharlotte = 1;
+var nCitrus = 1;
+var nDateLive = 1;
+var nExpelledFromParadise = 2;
+var nGakusenToshiAsterisk = 1;
+var nGleipnir = 1;
+var nGuiltyCrown = 3;
+var nHanayome = 2;
+var nHifuuKatsudouKiroku = 1;
+var nLoveStage = 1;
+var nMadoka = 1;
+var nMagi = 3;
+var nMasouGakuenHxH = 1;
+var nMisfitDemonSchoolAcademy = 2;
+var nNisekoi = 1;
+var nNoGameNoLife = 1;
+var nOresuki = 1;
+var nOsamake = 3;
+var nRakudaiKishiCavalry = 2;
+var nReincarnatedSlime = 1;
+var nSaintseya = 1;
+var nSwordArtOnline = 4;
+var nSeireiTsukaiBladeDancer = 1;
+var nShinmaiMaouTestament = 1;
 
 
 function searchAnime(anime) {
 
-    /*
-    All AkameGaKill AttackOnTitan  Berserk BlackClover Bleach CodeGeass CowboyBebop DarkerThanBlack
-    DeathNote  DemonSlayer DragonBall Evalgelion FairyTail Fate FinalFantasy FireForce 
-    FoodWars FullMetalAlchemist GenshinImpact Gintama Gundam GurrenLagann Hellsing HihgschoolOfTheDead
-    HitmanReborn HunterXHunter Inyuasha Jojo JujutsuKaisen MiraiNikki Misc MobPsycho MyHeroAcademia 
-    Naruto  Noblesse OnePiece OnePunchMan  Persona  Pokemon  SamuraiChamploo SevenDeadlySins
-    ShamanKing SoloLeveling TokyoGhoul TowerOfGod YoichiIsagi Yugioh YuYuHakusho 
-    */
 
     document.getElementById('showAvys').innerHTML = "";
 
@@ -450,6 +466,136 @@ function searchAnime(anime) {
     else if( anime.value==="YuYuHakusho") {
         for(var i = 0; i < nYuYuHakusho; i++){
             document.getElementById('showAvys').innerHTML += "<img src='avys/YuYuHakusho/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="BakaTestShoukanjuu") {
+        for(var i = 0; i < nBakaTestShoukanjuu; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/BakaTestShoukanjuu/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="BoardingSchoolJuliet") {
+        for(var i = 0; i < nBoardingSchoolJuliet; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/BoardingSchoolJuliet/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="Charlotte") {
+        for(var i = 0; i < nCharlotte; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/Charlotte/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="Citrus") {
+        for(var i = 0; i < nCitrus; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/Citrus/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="DateLive") {
+        for(var i = 0; i < nDateLive; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/DateLive/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="ExpelledFromParadise") {
+        for(var i = 0; i < nExpelledFromParadise; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/ExpelledFromParadise/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="GakusenToshiAsterisk") {
+        for(var i = 0; i < nGakusenToshiAsterisk; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/GakusenToshiAsterisk/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="Gleipnir") {
+        for(var i = 0; i < nGleipnir; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/Gleipnir/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="GuiltyCrown") {
+        for(var i = 0; i < nGuiltyCrown; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/GuiltyCrown/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="Hanayome") {
+        for(var i = 0; i < nHanayome; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/Hanayome/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="HifuuKatsudouKiroku") {
+        for(var i = 0; i < nHifuuKatsudouKiroku; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/HifuuKatsudouKiroku/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="LoveStage") {
+        for(var i = 0; i < nLoveStage; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/LoveStage/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="Madoka") {
+        for(var i = 0; i < nMadoka; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/Madoka/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="Magi") {
+        for(var i = 0; i < nMagi; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/Magi/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="MasouGakuenHxH") {
+        for(var i = 0; i < nMasouGakuenHxH; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/MasouGakuenHxH/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="MisfitDemonSchoolAcademy") {
+        for(var i = 0; i < nMisfitDemonSchoolAcademy; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/MisfitDemonSchoolAcademy/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="Nisekoi") {
+        for(var i = 0; i < nNisekoi; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/Nisekoi/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="NoGameNoLife") {
+        for(var i = 0; i < nNoGameNoLife; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/NoGameNoLife/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="Oresuki") {
+        for(var i = 0; i < nOresuki; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/Oresuki/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="Osamake") {
+        for(var i = 0; i < nOsamake; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/Osamake/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="RakudaiKishiCavalry") {
+        for(var i = 0; i < nRakudaiKishiCavalry; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/RakudaiKishiCavalry/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="ReincarnatedSlime") {
+        for(var i = 0; i < nReincarnatedSlime; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/ReincarnatedSlime/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="Saintseya") {
+        for(var i = 0; i < nSaintseya; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/Saintseya/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="SwordArtOnline") {
+        for(var i = 0; i < nSwordArtOnline; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/SAO/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="SeireiTsukaiBladeDancer") {
+        for(var i = 0; i < nSeireiTsukaiBladeDancer; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/SeireiTsukaiBladeDancer/"+ i + ".png'/>";
+        }
+    }
+    else if( anime.value==="ShinmaiMaouTestament") {
+        for(var i = 0; i < nShinmaiMaouTestament; i++){
+            document.getElementById('showAvys').innerHTML += "<img src='avys/ShinmaiMaouTestament/"+ i + ".png'/>";
         }
     }
 
