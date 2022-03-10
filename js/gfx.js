@@ -99,7 +99,6 @@ var nShinmaiMaouTestament = 1;
 
 
 function searchAnime(anime) {
-    console.log(anime.value);
 
     document.getElementById('showAvys').innerHTML = "";
 
@@ -597,9 +596,6 @@ function searchAnime(anime) {
         for(var i = 0; i < nShinmaiMaouTestament; i++){
             document.getElementById('showAvys').innerHTML += "<img src='avys/ShinmaiMaouTestament/"+ i + ".png'/>";
         }
-    }
-    else {
-        console.log(anime.value);
     }
 }
 
