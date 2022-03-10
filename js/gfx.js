@@ -99,7 +99,7 @@ var nShinmaiMaouTestament = 1;
 
 
 function searchAnime(anime) {
-
+    console.log(anime.value);
 
     document.getElementById('showAvys').innerHTML = "";
 
