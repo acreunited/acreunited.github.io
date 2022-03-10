@@ -598,6 +598,8 @@ function searchAnime(anime) {
             document.getElementById('showAvys').innerHTML += "<img src='avys/ShinmaiMaouTestament/"+ i + ".png'/>";
         }
     }
-
+    else {
+        console.log(anime.value);
+    }
 }
 
