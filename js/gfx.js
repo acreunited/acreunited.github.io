@@ -574,7 +574,7 @@ function searchAnime(anime) {
     }
     else if( anime.value==="ReincarnatedSlime") {
         for(var i = 0; i < nReincarnatedSlime; i++){
-            document.getElementById('showAvys').innerHTML += "<img src='avys/ReincarnatedSlime/"+ i + ".png'/>";
+            document.getElementById('showAvys').innerHTML += "<img src='avys/ReicarnatedSlime/"+ i + ".png'/>";
         }
     }
     else if( anime.value==="Saintseya") {
